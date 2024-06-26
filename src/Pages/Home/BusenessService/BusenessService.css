@@ -1,0 +1,115 @@
+.BusinessHeader {
+    text-align: center;
+}
+
+.BusinessHeader h2 {
+    font-family: 'SF Compact';
+    font-style: normal;
+    font-weight: 656;
+    font-size: 35px;
+    line-height: 144.84%;
+    /* or 51px */
+
+    letter-spacing: 1px;
+    text-transform: capitalize;
+
+    color: #33475B;
+}
+
+.BusinessHeader h2 span {
+    font-family: 'SF Compact';
+    font-style: normal;
+    font-weight: 656;
+    font-size: 35px;
+    line-height: 144.84%;
+    /* or 51px */
+
+    letter-spacing: 1px;
+    text-transform: capitalize;
+
+    color: #209F85;
+    ;
+}
+
+.BusinessHead {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    width: 85%;
+    margin: 15px auto;
+}
+
+.singleService img {
+    width: 335px;
+    height: 214px;
+}
+
+.singleService h3 {
+    padding-top: 20px;
+    padding-bottom: 8px;
+    font-family: 'SF Compact';
+    font-style: normal;
+    font-weight: 656;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+
+    letter-spacing: 1px;
+    text-transform: capitalize;
+
+    color: #33475B;
+}
+
+.singleService p {
+    text-align: left;
+    font-family: 'SF Compact';
+    font-style: normal;
+    font-weight: 457;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+    color: #33475B;
+}
+
+.ServiceBtn {
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.Butn {
+
+
+    font-family: 'SF Compact';
+    font-style: normal;
+    font-weight: 556;
+    font-size: 15px;
+    line-height: 19px;
+    padding: 5px 30px;
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #209F85;
+}
+
+
+
+
+@media only screen and (max-width:860px) {
+    .BusinessHead {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+
+@media only screen and (max-width:560px) {
+    .BusinessHead {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+}

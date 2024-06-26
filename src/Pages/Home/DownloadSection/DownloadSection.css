@@ -1,0 +1,145 @@
+.DownloadHeader {
+
+    height: 632px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(180deg, #FFFFFF 0%, #E8F6FF 100%);
+}
+
+
+
+.downloadSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    width: 85%;
+    margin: 0 auto;
+}
+
+.subDownload h2 {
+    font-family: 'SF Compact';
+    font-style: normal;
+    font-weight: 656;
+    font-size: 40px;
+
+    text-transform: capitalize;
+
+    color: #33475B;
+}
+
+
+.subDownload p {
+    font-family: 'SF Compact';
+    font-style: normal;
+    font-weight: 457;
+    font-size: 18px;
+    line-height: 40px;
+    padding-top: 15px;
+
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+
+    color: #33475B;
+}
+
+.ImagesMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Images1 {
+    width: 200px;
+    height: 115px;
+}
+
+.ImagesPart img {
+    width: 90%;
+}
+
+
+@media only screen and (max-width:860px) {
+    .downloadSection {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .subDownload h2 {
+        font-family: 'SF Compact';
+        font-style: normal;
+        font-weight: 656;
+        font-size: 35px;
+
+        text-transform: capitalize;
+
+        color: #33475B;
+    }
+
+
+    .ImagesPart img {
+        height: 300px;
+    }
+
+
+    .DownloadHeader {
+
+        margin-top: 65px;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+@media only screen and (max-width:560px) {
+    .downloadSection {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .subDownload h2 {
+        font-family: 'SF Compact';
+        font-style: normal;
+        font-weight: 656;
+        font-size: 30px;
+
+        text-transform: capitalize;
+
+        color: #33475B;
+    }
+
+    .subDownload p {
+        font-family: 'SF Compact';
+        font-style: normal;
+        font-weight: 457;
+        font-size: 15px;
+        line-height: 40px;
+        /* or 222% */
+
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+
+        color: #33475B;
+    }
+
+    .ImagesPart img {
+        height: 260px;
+    }
+
+    .ImagesMain {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+}

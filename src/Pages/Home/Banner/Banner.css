@@ -1,0 +1,160 @@
+.bannerHead {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 85%;
+    margin: 45px auto;
+    margin-bottom: 45px;
+}
+
+.banner h2 {
+
+    margin-top: 65px;
+    margin-bottom: 30px;
+
+    font-family: 'SF Compact';
+    font-style: normal;
+    font-weight: 656;
+    font-size: 55px;
+    line-height: 70px;
+    /* or 117% */
+
+
+    text-transform: uppercase;
+
+    color: #33475B;
+}
+
+.banner p {
+    font-family: 'SF Compact';
+    font-style: normal;
+    font-weight: 457;
+    font-size: 18px;
+    line-height: 40px;
+    /* or 222% */
+
+    letter-spacing: 1px;
+    text-transform: capitalize;
+
+    color: #33475B;
+}
+
+.banner button {
+    color: #FFFFFF;
+
+    width: 213px;
+    height: 48px;
+    margin-top: 50px;
+    border: none;
+    font-family: 'SF Compact';
+    background: #209F85;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+
+/* another banner style part */
+
+.Banner-2nd {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    width: 85%;
+    margin: 90px auto;
+
+}
+
+.subBanner img {
+    width: 100%;
+}
+
+.subBanner h2 {
+    margin-top: 45px;
+    font-family: 'SF Compact';
+    font-style: normal;
+    font-weight: 656;
+    font-size: 55px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #33475B;
+
+}
+
+.subBanner p {
+    font-family: 'SF Compact';
+    font-style: normal;
+    font-weight: 457;
+    font-size: 18px;
+    line-height: 40px;
+    /* or 222% */
+
+    letter-spacing: 1px;
+    text-transform: capitalize;
+
+    color: #33475B;
+
+}
+
+
+
+@media only screen and (max-width:860px) {
+    .subCatagories {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .banner h2 {
+
+        margin-top: 65px;
+        margin-bottom: 30px;
+
+        font-family: 'SF Compact';
+        font-style: normal;
+        font-weight: 656;
+        font-size: 45px;
+        line-height: 70px;
+
+
+
+        text-transform: uppercase;
+
+        color: #33475B;
+    }
+
+
+    .subBanner h2 {
+        margin-top: 45px;
+        font-family: 'SF Compact';
+        font-style: normal;
+        font-weight: 656;
+        font-size: 45px;
+        line-height: 70px;
+        text-transform: uppercase;
+        color: #33475B;
+
+    }
+
+
+
+}
+
+@media only screen and (max-width:760px) {
+    .bannerHead {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .Banner-2nd {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+}

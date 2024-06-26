@@ -1,0 +1,303 @@
+.FeatureHead {
+    width: 85%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.FeatureHead h1 {
+
+
+    font-family: 'SF Compact';
+
+    font-weight: 790;
+    font-size: 35px;
+    line-height: 30px;
+    /* identical to box height, or 86% */
+
+    letter-spacing: 1px;
+    text-transform: capitalize;
+
+    color: #33475B;
+}
+
+.FeatureHead p {
+
+
+    font-family: 'SF Compact';
+    padding: 40px 80px;
+    font-weight: 556;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 50px;
+
+    letter-spacing: 1px;
+
+    color: #33475B;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    width: 85%;
+    margin: 20px auto;
+}
+
+.Feature {
+    text-align: center;
+    border: 1px solid gainsboro;
+    box-shadow: 0px 2px 8px 4px rgba(163, 158, 158, 0.25);
+    border-radius: 10px;
+    padding: 0 30px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.Feature h3 {
+    text-align: center;
+    font-family: 'SF Compact';
+    font-style: normal;
+    font-weight: 656;
+    font-size: 20px;
+    line-height: 30px;
+
+
+    letter-spacing: 1px;
+    text-transform: capitalize;
+
+    color: #33475B;
+}
+
+.Feature p {
+    font-family: 'SF Compact';
+    font-style: normal;
+    font-weight: 457;
+    font-size: 18px;
+    text-align: left;
+    color: #000000;
+}
+
+.Feature span {
+    text-align: center;
+}
+
+.FeatureIcon1 {
+    text-align: center;
+    margin: 0;
+    padding: 6px 9px;
+    font-size: 23px;
+    border: 1px solid rgb(124, 168, 212);
+    background-color: #445DAE;
+    color: white;
+    border-radius: 50%;
+}
+
+.FeatureIcon2 {
+    text-align: center;
+    margin: 0;
+    padding: 6px 9px;
+    font-size: 23px;
+    border: 1px solid#EA3A7F;
+    ;
+    background-color: #EA3A7F;
+    ;
+    color: white;
+    border-radius: 50%;
+}
+
+.FeatureIcon3 {
+    text-align: center;
+    margin: 0;
+    padding: 6px 9px;
+    font-size: 23px;
+    border: 1px solid #017D23;
+    ;
+    background-color: #017D23;
+    ;
+    color: white;
+    border-radius: 50%;
+}
+
+.FeatureIcon4 {
+    text-align: center;
+    margin: 0;
+    padding: 6px 9px;
+    font-size: 23px;
+    border: 1px solid #33475B;
+    background-color:
+        #33475B;
+    color: white;
+    border-radius: 50%;
+}
+
+.FeatureIcon5 {
+    text-align: center;
+    margin: 0;
+    padding: 6px 9px;
+    font-size: 23px;
+    border: 1px solid #773596;
+    background-color: #773596;
+    color: white;
+    border-radius: 50%;
+}
+
+.FeatureIcon6 {
+    text-align: center;
+    margin: 0;
+    padding: 6px 9px;
+    font-size: 23px;
+    border: 1px solid #008CB3;
+    background-color:
+        #008CB3;
+    color: white;
+    border-radius: 50%;
+}
+
+.Feature p span {
+    color: white;
+    font-size: 10px;
+    border: .5px solid #445DAE;
+    background-color: #445DAE;
+    border-radius: 50%;
+    padding: 0px 1px;
+    padding-top: 2px;
+    margin-right: 10px
+}
+
+
+.content-2 p span {
+    color: white;
+    font-size: 10px;
+    border: .5px solid #EA3A7F;
+    background-color: #EA3A7F;
+    border-radius: 50%;
+    padding: 0px 1px;
+    padding-top: 2px;
+    margin-right: 10px
+}
+
+.content-3 p span {
+    color: white;
+    font-size: 10px;
+    border: .5px solid #017D23;
+    background-color: #017D23;
+    border-radius: 50%;
+    padding: 0px 1px;
+    padding-top: 2px;
+    margin-right: 10px
+}
+
+.content-4 p span {
+    color: white;
+    font-size: 10px;
+    border: .5px solid #33475B;
+    background-color: #33475B;
+    border-radius: 50%;
+    padding: 0px 1px;
+    padding-top: 2px;
+    margin-right: 10px
+}
+
+.content-5 p span {
+    color: white;
+    font-size: 10px;
+    border: .5px solid #773596;
+    background-color: #773596;
+    border-radius: 50%;
+    padding: 0px 1px;
+    padding-top: 2px;
+    margin-right: 10px
+}
+
+.content-6 p span {
+    color: white;
+    font-size: 10px;
+    border: .5px solid #008CB3;
+    background-color: #008CB3;
+    border-radius: 50%;
+    padding: 0px 1px;
+    padding-top: 2px;
+    margin-right: 10px
+}
+
+
+
+.FeatureBtn {
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.Butn {
+
+
+    font-family: 'SF Compact';
+    font-style: normal;
+    font-weight: 556;
+    font-size: 15px;
+    line-height: 19px;
+    padding: 5px 40px;
+    border: 1px solid #209F85;
+    text-align: center;
+    letter-spacing: 1px;
+    border-radius: 4px;
+
+    color: #209F85;
+}
+
+
+@media only screen and (max-width:860px) {
+    .features {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+
+
+
+
+    .FeatureHead p {
+
+
+        font-family: 'SF Compact';
+        padding: 20px 30px;
+        font-weight: 556;
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 50px;
+
+        letter-spacing: 1px;
+
+        color: #33475B;
+    }
+
+}
+
+@media only screen and (max-width:560px) {
+    .features {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+
+
+
+
+    .FeatureHead p {
+
+
+        font-family: 'SF Compact';
+        padding: 15px 15px;
+        font-weight: 556;
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 50px;
+
+        letter-spacing: 1px;
+
+        color: #33475B;
+    }
+
+
+}

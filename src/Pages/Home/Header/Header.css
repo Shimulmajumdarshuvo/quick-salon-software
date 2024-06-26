@@ -1,0 +1,90 @@
+.NavbarHead {
+
+    padding: 20px 0;
+    left: 0px;
+    top: 0px;
+    color: white;
+    background: #209F85;
+    border-radius: 0px;
+    font-family: 'SF Compact';
+}
+
+.ImagesHeader {
+    width: 96px;
+    height: 95px;
+
+}
+
+.HeaderImg {
+    padding-right: 15px;
+    width: 96px;
+    height: 80px;
+    left: 143.5px;
+    top: 33px;
+    color: rgb(54, 84, 110);
+    background: #420f96;
+}
+
+.TitleBar {
+    font-family: 'SF Compact';
+    font-style: normal;
+    font-weight: 790;
+    font-size: 20px;
+    line-height: 24px;
+    padding-right: 50px;
+
+
+    letter-spacing: 1px;
+
+    color: #FFFFFF;
+}
+
+.TitleBar span {
+    font-family: 'SF Compact';
+    font-style: normal;
+    font-weight: 556;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #FFFFFF;
+}
+
+.NavBttton {
+    width: 158px;
+    height: 48px;
+    border: .05px solid #209F85;
+    background: #33475B;
+    border-radius: 10px;
+
+    margin-left: 25px;
+    padding-top: 14px;
+
+    font-style: normal;
+    font-weight: 556;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #FFFFFF;
+}
+
+
+@media only screen and (max-width:560px) {
+    .ImagesHeader {
+        width: 76px;
+        height: 78px;
+
+    }
+
+    .NavBttton {
+
+
+        margin-left: 0;
+
+
+    }
+
+}

@@ -1,0 +1,101 @@
+.customerMainPart {
+    width: 85%;
+    margin: 0 auto;
+
+}
+
+.customerMainPart h4 {
+    font-family: 'SF Compact';
+    font-style: normal;
+    font-weight: 556;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    /* identical to box height */
+
+
+    color: #33475B;
+}
+
+.customerMainPart h2 {
+    font-family: 'SF Compact';
+    font-style: normal;
+    font-weight: 656;
+    font-size: 49px;
+    line-height: 58px;
+    text-align: center;
+
+    color: #209F85;
+}
+
+.customerMainPart p {
+    font-family: 'SF Compact';
+    font-style: normal;
+    font-weight: 457;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    padding: 60px 20px;
+    color: #33475B;
+}
+
+.customerMainPart h3 {
+    font-family: 'SF Compact';
+    font-style: normal;
+    font-weight: 556;
+    font-size: 41px;
+    line-height: 49px;
+
+    color: #209F85;
+    text-align: center;
+
+}
+
+.CustomerHead {
+
+    background-image: url("https://i.ibb.co/C7r3NJr/Map-400x-1.png");
+    height: 70vh;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-blend-mode: overlay;
+}
+
+.Customer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Customer2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 85%;
+    margin: 15px auto;
+
+}
+
+.Customer3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 18px;
+}
+
+.imgA {
+    height: 80px;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+
+.imgB {
+    height: 100px;
+
+    border-radius: 50%;
+}
+
+.ImgF {
+    height: 120px;
+
+    border-radius: 50%;
+}

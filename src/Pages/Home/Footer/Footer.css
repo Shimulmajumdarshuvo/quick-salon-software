@@ -1,0 +1,156 @@
+.footer-top {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+    width: 85%;
+    margin: 10px auto;
+}
+
+.subFooter h2 {
+    font-family: 'SF Compact';
+    font-style: normal;
+    font-weight: 656;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #33475B;
+}
+
+.subFooter p {
+    font-family: 'SF Compact';
+    font-style: normal;
+    font-weight: 457;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #33475B;
+}
+
+.subFooter h5 {
+    font-family: 'SF Compact';
+    font-style: normal;
+    font-weight: 457;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #33475B;
+}
+
+.inputField {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+    border-radius: 5px;
+}
+
+.inputField span {
+
+    width: 50.49px;
+    height: 48px;
+    left: 1045px;
+    top: 8106px;
+
+    background: #33475B;
+    border-radius: 5px;
+}
+
+.inputField input {
+    width: 279.08px;
+    height: 48px;
+    left: 1045px;
+    top: 8105px;
+    border: none;
+    background: #FFFBFB;
+    padding-left: 9px;
+
+}
+
+.footer-down {
+
+
+
+    background: #209F85;
+    padding-bottom: 20px;
+
+}
+
+.footerSub {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 18px;
+    width: 85%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.footerSub h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    padding-bottom: 10px;
+
+    color: #FBF9F9;
+}
+
+.footerIcon {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.footerIcon span {
+    color: #D9D9D9;
+    font-size: 28px;
+    padding: 2px 8px;
+
+
+
+    text-align: end;
+
+
+}
+
+
+
+.singleFooter h3 {
+    text-align: end;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+@media only screen and (max-width:860px) {
+    .footer-top {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+}
+
+@media only screen and (max-width:560px) {
+    .footer-top {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .footerSub {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
